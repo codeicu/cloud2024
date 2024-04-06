@@ -16,8 +16,8 @@ spring:
         config:
           # default timeout is 60s
           default:
-            connect-timeout: 5000
-            read-timeout: 5000
+            connect-timeout: 20000
+            read-timeout: 20000
       # httpclient5 is suggested by open feign
       httpclient:
         hc5:
@@ -30,10 +30,25 @@ spring:
           min-request-size: 2048
         response:
           enabled: true
+    circuitbreaker:
+      enabled: true
+      group:
+        enabled: true
 
-logging:
-  level:
-    edu:
-      wong:
-        apis:
-          PayFeignApi: debug
+resilience4j:
+  ratelimiter:
+    configs:
+      default:
+        limit-for-period: 2 # 一次刷新周期内允许最大的请求数
+        limit-refresh-period: 1s # 刷新周期
+        timeout-duration: 1 # 默认等待时间
+    instances:
+      cloud-payment-service:
+        base-config: default
+
+#logging:
+#  level:
+#    edu:
+#      wong:
+#        apis:
+#          PayFeignApi: debug
