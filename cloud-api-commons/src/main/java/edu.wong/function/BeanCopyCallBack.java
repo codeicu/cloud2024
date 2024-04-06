@@ -1,4 +1,4 @@
-package edu.wong.util;
+package edu.wong.function;
 
 @FunctionalInterface
 public interface BeanCopyCallBack<S, T> {

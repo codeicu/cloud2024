@@ -19,6 +19,11 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>edu.wong</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- bootstrap -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

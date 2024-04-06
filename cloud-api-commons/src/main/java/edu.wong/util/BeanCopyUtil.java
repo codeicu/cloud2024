@@ -1,5 +1,6 @@
 package edu.wong.util;
 
+import edu.wong.function.BeanCopyCallBack;
 import org.springframework.beans.BeanUtils;
 
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
 package edu.wong.util;
 
-import edu.wong.enums.ReturnCodeEnum;
+import edu.wong.enumerate.ReturnCodeEnum;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
