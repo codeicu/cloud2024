@@ -1,4 +1,4 @@
-package com.cloud;
+package edu.wong;
 
 public class Main {
     public static void main(String[] args) {

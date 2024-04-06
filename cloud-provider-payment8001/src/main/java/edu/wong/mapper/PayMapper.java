@@ -1,6 +1,6 @@
-package com.cloud.mapper;
+package edu.wong.mapper;
 
-import com.cloud.entities.Pay;
+import edu.wong.entities.Pay;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface PayMapper extends Mapper<Pay> {

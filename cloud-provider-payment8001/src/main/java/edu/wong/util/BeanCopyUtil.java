@@ -1,4 +1,4 @@
-package com.cloud.util;
+package edu.wong.util;
 
 import org.springframework.beans.BeanUtils;
 

@@ -1,4 +1,4 @@
-package com.cloud.enums;
+package edu.wong.enums;
 
 import lombok.Getter;
 import lombok.NonNull;

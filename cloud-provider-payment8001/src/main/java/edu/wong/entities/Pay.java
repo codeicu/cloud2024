@@ -1,4 +1,4 @@
-package com.cloud.entities;
+package edu.wong.entities;
 
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;

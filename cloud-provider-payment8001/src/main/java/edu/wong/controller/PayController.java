@@ -1,10 +1,10 @@
-package com.cloud.controller;
+package edu.wong.controller;
 
-import com.cloud.entities.Pay;
-import com.cloud.entities.PayDTO;
-import com.cloud.service.PayService;
-import com.cloud.util.BeanCopyUtil;
-import com.cloud.util.Result;
+import edu.wong.entities.Pay;
+import edu.wong.entities.PayDTO;
+import edu.wong.service.PayService;
+import edu.wong.util.BeanCopyUtil;
+import edu.wong.util.Result;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;

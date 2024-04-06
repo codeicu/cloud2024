@@ -1,8 +1,8 @@
-package com.cloud.service.impl;
+package edu.wong.service.impl;
 
-import com.cloud.entities.Pay;
-import com.cloud.mapper.PayMapper;
-import com.cloud.service.PayService;
+import edu.wong.entities.Pay;
+import edu.wong.mapper.PayMapper;
+import edu.wong.service.PayService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 

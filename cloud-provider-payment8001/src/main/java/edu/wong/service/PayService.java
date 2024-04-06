@@ -1,7 +1,7 @@
-package com.cloud.service;
+package edu.wong.service;
 
 
-import com.cloud.entities.Pay;
+import edu.wong.entities.Pay;
 
 import java.util.List;
 

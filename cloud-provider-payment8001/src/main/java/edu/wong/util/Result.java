@@ -1,6 +1,6 @@
-package com.cloud.util;
+package edu.wong.util;
 
-import com.cloud.enums.ReturnCodeEnum;
+import edu.wong.enums.ReturnCodeEnum;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
