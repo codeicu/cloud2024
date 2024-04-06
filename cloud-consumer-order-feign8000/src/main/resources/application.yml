@@ -30,3 +30,10 @@ spring:
           min-request-size: 2048
         response:
           enabled: true
+
+logging:
+  level:
+    edu:
+      wong:
+        apis:
+          PayFeignApi: debug
