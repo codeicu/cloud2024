@@ -1,0 +1,24 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: cloud-consumer-order-openfeign
+  cloud:
+    consul:
+      port: 8500
+      host: localhost
+      discovery:
+        service-name: ${spring.application.name}
+        prefer-agent-address: true
+    openfeign:
+      client:
+        config:
+          # default timeout is 60s
+          default:
+            connect-timeout: 5000
+            read-timeout: 5000
+      # httpclient5 is suggested by open feign
+      httpclient:
+        hc5:
+          enabled: true

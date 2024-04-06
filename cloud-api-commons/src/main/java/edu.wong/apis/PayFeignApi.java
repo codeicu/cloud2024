@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@FeignClient(value = "cloud-gateway")
+@FeignClient(value = "cloud-payment-service")
 public interface PayFeignApi {
 
     @PostMapping("/pay/add")
