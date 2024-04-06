@@ -8,5 +8,7 @@ spring:
       discovery:
         service-name: ${spring.application.name}
       config:
+        watch:
+          wait-time: 2
         profile-separator: '-'
         format: YAML
