@@ -83,9 +83,9 @@ public class PayController {
     }
 
     @GetMapping("/getInfo")
-    public Result<String> getInfo(@Value("${wong.info}") String info) {
+    public Result<String> getInfo(@Value("${cloud.info}") String info) {
         try {
-            TimeUnit.SECONDS.sleep(62);
+            TimeUnit.SECONDS.sleep(0);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
